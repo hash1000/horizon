@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 import { z } from "zod";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
+  return twMerge(clsx(inputs));// cn is function and twmerge is use to merge css classes by using clsx
 }
 
 // FORMAT DATE TIME
